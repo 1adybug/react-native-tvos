@@ -29,11 +29,7 @@ As of the 0.71 release, Hermes is fully working on both Apple TV and Android TV,
 
 Typescript types for TV-specific components and APIs have been added to `types/public`.
 
-A minimal Typescript starter template can be used to start a new project using the community react-native CLI (see below for more information on the CLI).
-
-```sh
-react-native init TestApp --template=react-native-template-typescript-tv
-```
+Starting with 0.71, when you create a new React Native app via the React Native CLI you'll get a TypeScript app by default. The new project is already set up with a tsconfig.json so out of the box your IDE will help you write typed code right away.
 
 ## General support for TV
 
